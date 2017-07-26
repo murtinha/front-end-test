@@ -57,3 +57,30 @@ bold {
 	margin-left: 5px;
 	color: #3498DB;
 }
+
+/*Media Queries*/
+
+@media screen and (max-width:991px) {
+	.container {
+		width: 100% !important; /*Overriding bootstrap container breakpoints*/
+	}
+}
+
+@media screen and (min-width:992px) {
+   .container {
+           width: 951px !important;
+   }
+}
+@media screen and (min-width:1076px) {
+   .container {
+           width: 1075px !important;
+   }
+}
+
+@media screen and (min-width:1200px) {
+   .container {
+           width: 1200px !important;
+   }
+}
+
+
