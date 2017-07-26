@@ -1,0 +1,59 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+html,body {
+	width:100%;
+	height:100%;
+	font-family: Helvetica;
+}
+h2 {
+	font-size:15px;
+	color: white;
+	font-weight:lighter;
+}
+p {
+	font-size:10px;
+	display: inline;
+}
+bold {
+	font-weight:bold;
+	color:white;
+}
+.blue_background {
+	background-color: #3498DB;
+}
+.nav {
+	padding-top: 30px;
+}
+.nav_hamb {
+	margin-top: 15px;
+}
+.nav_logo {
+	float:left;
+	margin-right:10px;
+}
+.nav_h2 {
+	margin-top: 40px;
+	display: inline-block;
+}
+.nav_button {
+	margin-top:15px;
+	border-radius:15%;
+	width: 90px;
+	background-color: white;
+	padding: 5px;
+}
+.nav_icon {
+	color: blue;
+	font-size: 15px;
+	width:15px;
+}
+.nav_icon_right {
+	color: #3498DB;
+}
+.nav_button_left {
+	margin-right: 5px;
+	color: blue;
+}
+.nav_button_right {
+	margin-left: 5px;
+	color: #3498DB;
+}
