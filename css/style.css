@@ -61,16 +61,18 @@ bold {
 section {
 	margin-top:15px;
 }
-.section_home_image {
-	z-index:10;
+.section_home {
+	width:100%;
+	height:65%;
 }
-.section_home_arrow {
-	z-index:20;
+.section_home_banner {
+	width: 100%;
+	height:100%;
+	background-image: url("../slices/desktop/image_rotate.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+
 }
-	
-
-
-
 
 /*Media Queries*/
 
