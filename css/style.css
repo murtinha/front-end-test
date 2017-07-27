@@ -71,9 +71,18 @@ section {
 	background-image: url("../slices/desktop/image_rotate.png");
 	background-size:cover;
 	background-repeat:no-repeat;
+	position:relative;
 
 }
-
+.section_home_arrow {
+	background-color:white;
+	border-radius:50%;
+	position:absolute;
+	top:50%;
+}
+.right_arrow {
+	right:0;
+}
 /*Media Queries*/
 
 @media screen and (max-width:991px) {
