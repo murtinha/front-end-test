@@ -72,11 +72,25 @@ section {
 	background-size:cover;
 	background-repeat:no-repeat;
 	position:relative;
+	z-index:-1;
 
 }
-.section_home_arrow {
-	background-color:white;
+.section_home_circle {
+	background-color:grey;
+	width:60px;
+	height:60px;
 	border-radius:50%;
+	position:absolute;
+	top:47%;
+}
+.circle_left {
+	margin-left:-15px;
+}
+.circle_right {
+	right:0;
+	margin-right:-15px;
+}
+.section_home_arrow {
 	position:absolute;
 	top:50%;
 }
