@@ -4,14 +4,10 @@ html,body {
 	height:100%;
 	font-family: Helvetica;
 }
-h2 {
+p {
 	font-size:15px;
 	color: white;
 	font-weight:lighter;
-}
-p {
-	font-size:10px;
-	display: inline;
 }
 bold {
 	font-weight:bold;
@@ -31,7 +27,7 @@ bold {
 	float:left;
 	margin-right:10px;
 }
-.nav_h2 {
+.nav_p {
 	margin-top: 40px;
 	display: inline-block;
 }
@@ -77,8 +73,8 @@ section {
 }
 .section_home_circle {
 	background-color:grey;
-	width:60px;
-	height:60px;
+	width:55px;
+	height:55px;
 	border-radius:50%;
 	position:absolute;
 	top:47%;
@@ -97,6 +93,40 @@ section {
 .right_arrow {
 	right:0;
 }
+.section_home_text {
+	position:absolute;
+	top:65%;
+	color:white;
+	margin-left:35px;
+}
+.section_home_h3 {
+	font-size:16px;
+	border: 2px solid #3498DB;
+	background-color:#3498DB;
+	width:60%;
+	padding-left:10px;
+}
+.section_home_h2 {
+	font-size:28px;
+	line-height:30px;
+}
+.section_home_carrousel {
+	position:absolute;
+	left:47%;
+	top:100%;
+}
+.carrousel_dot {
+	display:inline-block;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	background-color:gray;
+	margin-left:10px;
+}
+
+
+
+
 /*Media Queries*/
 
 @media screen and (max-width:991px) {
@@ -110,13 +140,13 @@ section {
            width: 951px !important;
    }
 }
-@media screen and (min-width:1076px) {
+@media screen and (min-width:1090px) {
    .container {
            width: 1075px !important;
    }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1215px) {
    .container {
            width: 1200px !important;
    }
