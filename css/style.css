@@ -16,6 +16,13 @@ bold {
 .blue_background {
 	background-color: #3498DB;
 }
+.header_container {
+	 margin-right: auto;
+	 margin-left: auto;
+	 padding-left: 15px;
+	 padding-right: 15px;
+	 display: table;
+ }	
 .nav {
 	padding-top: 30px;
 	margin-bottom: 70px;
@@ -72,7 +79,7 @@ section {
 
 }
 .section_home_circle {
-	background-color:grey;
+	background-color:#D3D3D3;
 	width:55px;
 	height:55px;
 	border-radius:50%;
@@ -129,25 +136,25 @@ section {
 
 /*Media Queries*/
 
-@media screen and (max-width:991px) {
-	.container {
-		width: 100% !important; /*Overriding bootstrap container breakpoints*/
-	}
-}
 
+@media screen and (min-width:768px) {
+   .header_container {
+           width: 100% !important;
+   }
+}
 @media screen and (min-width:992px) {
-   .container {
+   .container, .header_container {
            width: 951px !important;
    }
 }
 @media screen and (min-width:1090px) {
-   .container {
+   .container, .header_container {
            width: 1075px !important;
-   }
+    }
 }
 
 @media screen and (min-width:1215px) {
-   .container {
+   .container, .header_container {
            width: 1200px !important;
    }
 }
