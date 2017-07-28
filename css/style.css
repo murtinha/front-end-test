@@ -163,11 +163,21 @@ section {
 	.nav_desktop {
 		display:none;
 	}
+	.nav_hamb_desktop {
+		display:none;
+  	}
 	.nav_tablet {
+		display:none;
+	}
+	.nav_hamb_tablet {
 		display:none;
 	}
 	.nav_mobile {
 		display:inline;
+	}
+	.nav_hamb_mobile {
+		display:inline;
+		margin-top:15px
 	}
 	.nav_p {
 		display:none;
@@ -207,6 +217,9 @@ section {
   }
   .nav_mobile {
 	  display:none;
+   }
+   .nav_hamb_mobile {
+	   display:none;
    }
   
   .section_home_arrow, .circle_left, .circle_right {
