@@ -232,6 +232,12 @@ section {
   .section_home_arrow, .circle_left, .circle_right {
 	  display:none;
   }
+  .topcacildis_img_desktop {
+	  display:none;
+  }
+  .topcacildis_img_tablet {
+	  display:inline;
+  }
 
 }
 @media screen and (min-width:883px) {
@@ -264,16 +270,20 @@ section {
   .section_home_arrow, .circle_left, .circle_right {
 	  display:inline;
   }
-  .topcacildis_img {
+  .topcacildis_img_desktop {
 	  width:260px;
+	  display:inline;
     }
+   .topcacildis_img_tablet {
+	   display:none;
+   }
 }
 
 @media screen and (min-width:1090px) {
    .container, .header_container {
            width: 1075px !important;
     }
-    .topcacildis_img {
+    .topcacildis_img_desktop {
 	    width:320px;
     }
 }
@@ -282,8 +292,11 @@ section {
    .container, .header_container {
            width: 1200px !important;
    }
-   .topcacildis_img {
+   .topcacildis_img_desktop {
 	   width:360px;
+   }
+   .topcacildis_img_tablet {
+	   display:none;
    }
 }
 
