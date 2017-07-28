@@ -82,7 +82,7 @@ bold {
 	color: #3498DB;
 }
 section {
-	margin-top:15px;
+	margin-top:60px;
 }
 .section_home {
 	width:100%;
@@ -148,6 +148,13 @@ section {
 	height:10px;
 	border-radius:50%;
 	margin-left:10px;
+}
+.topcacildis_h3 {
+	position:absolute;
+	top:70%;
+	color:white;
+	border:2px solid red;
+	background-color:red;
 }
 
 
@@ -257,16 +264,26 @@ section {
   .section_home_arrow, .circle_left, .circle_right {
 	  display:inline;
   }
+  .topcacildis_img {
+	  width:240px;
+    }
 }
+
 @media screen and (min-width:1090px) {
    .container, .header_container {
            width: 1075px !important;
+    }
+    .topcacildis_img {
+	    width:300px;
     }
 }
 
 @media screen and (min-width:1215px) {
    .container, .header_container {
            width: 1200px !important;
+   }
+   .topcacildis_img {
+	   width:360px;
    }
 }
 
