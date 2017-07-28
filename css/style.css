@@ -153,8 +153,11 @@ section {
 
 
 @media screen and (min-width:768px) {
+   .container {
+	   width:760 !important;
+   }
    .header_container {
-           width: 100% !important;
+           width: 100% ;
    }
    .toggle_div {
 	   display:none;
@@ -178,6 +181,11 @@ section {
 	  display:none;
   }
 
+}
+@media screen and (min-width:883px) {
+   .container {
+	   width:880px !important;
+}
 }
 @media screen and (min-width:992px) {
    .container, .header_container {
