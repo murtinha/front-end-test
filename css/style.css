@@ -125,6 +125,7 @@ section {
 	top:65%;
 	color:white;
 	margin-left:35px;
+	width:497.94px;
 }
 .section_home_h3 {
 	font-size:16px;
@@ -136,11 +137,6 @@ section {
 .section_home_h2 {
 	font-size:28px;
 	line-height:30px;
-}
-.section_home_carrousel {
-	position:absolute;
-	left:47%;
-	top:100%;
 }
 .carrousel_dot {
 	display:inline-block;
@@ -163,7 +159,13 @@ section {
 /*Media Queries*/
 
 
-@media screen and (min-width:369px) {
+@media screen and (min-width:695px) {
+	.container {
+		width:680px !important;
+	}
+	.col-mobile-offset-5 {
+		margin-left:45.666667%;
+	}
 	.header_container {
 		width:100%;
 	}
@@ -184,7 +186,7 @@ section {
 	}
 	.nav_hamb_mobile {
 		display:inline;
-		margin-top:15px
+		margin-top:15px;
 	}
 	.nav_p {
 		display:none;
@@ -192,10 +194,37 @@ section {
 	.nav_button {
 		display:none;
 	}
+	.section_home_banner {
+		background-image:url("../slices/mobile/image_rotate.png");
+	}
+      	.section_home_arrow, .circle_left, .circle_right {
+	  	display:none;
+        }
+	.section_home_h2 {
+		display:none;
+	}
+	.section_h2_tablet {
+		font-size:30px;
+		display:inline;
+	}
+	.section_home_text {
+		top:85%;
+	}
+  	.topcacildis_img_desktop {
+	  display:none;
+  	}
+	.topcacildis_img_tablet {
+	  display:none;
+  	}
+	.topcacildis_img_mobile {
+	  display:inline;
+	  width:100%;
+  	}
+
 }
 @media screen and (min-width:768px) {
    .container {
-	   width:760 !important;
+	   width:754px !important;
    }
    .header_container {
            width: 100% ;
@@ -226,21 +255,31 @@ section {
 	  display:none;
    }
    .nav_hamb_mobile {
-	   display:none;
-   }
-  
-  .section_home_arrow, .circle_left, .circle_right {
 	  display:none;
+   }
+  .section_home_banner {
+	 background-image:url("../slices/tablet/image_rotate.png");
+  } 
+  .section_home_text {
+	  top:65%;
   }
+  .section_home_h2 {
+	  display:inline;
+	}
+  .section_h2_tablet {
+	  display:none;
+   }
   .topcacildis_img_desktop {
 	  display:none;
   }
   .topcacildis_img_tablet {
 	  display:inline;
   }
-
+  .topcacildis_img_mobile {
+	  display:none;
+  }
 }
-@media screen and (min-width:883px) {
+@media screen and (min-width:895px) {
    .container {
 	   width:880px !important;
 }
@@ -266,6 +305,9 @@ section {
   }
   .nav_tablet {
 	  display:none;
+  }
+  .section_home_banner {
+	  background-image:url("../slices/desktop/image_rotate.png");
   }
   .section_home_arrow, .circle_left, .circle_right {
 	  display:inline;
