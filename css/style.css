@@ -187,7 +187,36 @@ bold {
 		font-size:12px;
 		margin-top:-15px;
 	}
-	
+	.last_section {
+		max-height:393px;
+	}
+	.last_section_h2 {
+		font-size:20px;
+		color:#3498DB;
+	}
+	.red_h2 {
+			color:red;
+	}
+	.last_section_p {
+		color:black;
+		font-size:12px;
+	}
+	.last_section_border {
+		border-bottom:1px solid gray;
+		margin-bottom:15px;
+		margin-top:15px;
+	}
+	.last_section_content {
+		display:inline-block;
+	}
+	.img_desktop_last {
+		margin-top:-10px;
+	}
+	.last_section_h3 {
+		margin-top:20px;
+		font-size:14px;
+	}
+
 
 
 
