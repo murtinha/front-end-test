@@ -276,6 +276,12 @@ bold {
 	.mobile_topcacildisWrapper {
 		display:none;
 	}
+	.hide_divoltis_desktop {
+		display:none;
+	}
+	.divoltis_marketingWrapper {
+		display:none;
+ 	}
 
 
 }
@@ -385,6 +391,9 @@ bold {
   .mobile_topcacildisWrapper {
 		display:inline;
 	}
+  .hide_divoltis_for_desktop {
+	   display:inline;
+   }
 }
 @media screen and (min-width:895px) {
    .container {
@@ -427,6 +436,15 @@ bold {
     }
    .img_tablet {
 	   display:none;
+   }
+   .hide_divoltis_desktop {
+	   display:inline;
+   }
+   .hide_divoltis_not_desktop {
+	   display:none;
+   }
+   .divoltis_marketingWrapper {
+	   display:inline;
    }
 }
 
