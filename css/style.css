@@ -8,6 +8,12 @@ html,body {
 	margin-right:0 !important;
 	margin-left:0 !important;
 }
+.red_color {
+	color:red;
+}
+.lightB_color {
+	color:#3498DB;
+}
 p {
 	font-size:15px;
 	color: white;
@@ -190,12 +196,13 @@ bold {
 	.last_section {
 		max-height:393px;
 	}
+	.pirulita_textWrapper {
+		position:absolute;
+		top:25%;
+		left:62%;
+	}
 	.last_section_h2 {
 		font-size:20px;
-		color:#3498DB;
-	}
-	.red_h2 {
-			color:red;
 	}
 	.last_section_p {
 		color:black;
